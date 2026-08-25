@@ -1,6 +1,6 @@
 ---
 name: product-value-strategy
-description: A buyer-specific product value strategy skill for finding where a product, company, offering, or leader actually has leverage relative to the strongest real alternatives. Use for positioning, pricing, product strategy, portfolio choices, market entry, build-buy-partner decisions, or executive value where relevance alone is not enough.
+description: A buyer-specific product value strategy skill for finding where a product, company, or offering actually has leverage relative to the strongest real alternatives. Use for positioning, pricing, product strategy, portfolio choices, market entry, build-buy-partner decisions, and value capture where relevance alone is not enough.
 ---
 
 # Product Value-Strategy
@@ -27,7 +27,6 @@ Use for:
 - positioning and differentiation;
 - pricing and value capture;
 - market entry;
-- executive or career positioning;
 - build / buy / partner decisions;
 - deciding what not to fund;
 - evaluating capability bundles; and
@@ -44,7 +43,7 @@ Identify:
 - what time horizon matters; and
 - what resource is actually being allocated.
 
-Do not use a broad market segment when the decision is account-specific, role-specific, or situation-specific.
+Do not use a broad market segment when the decision is account-specific or situation-specific.
 
 ## 2. Identify the strongest real alternatives
 
@@ -57,10 +56,8 @@ Include when relevant:
 - adjacent substitute;
 - internal build;
 - current team capability;
-- internal promotion;
-- trusted-network hire;
 - workaround;
-- two or more specialized vendors, teams, or hires;
+- two or more specialized vendors or internal teams;
 - delay;
 - do nothing; or
 - reallocate the resource elsewhere.
@@ -69,7 +66,7 @@ Do not compare only against the weakest convenient alternative.
 
 ## 3. Identify buyer-specific value drivers
 
-Define the dimensions that materially change willingness to choose, pay, adopt, expand, hire, promote, fund, or allocate resources.
+Define the dimensions that materially change willingness to choose, pay, adopt, expand, fund, or allocate resources.
 
 A value driver is customer value, not seller capability.
 
@@ -105,7 +102,7 @@ Use numeric weights only when the evidence supports them. Do not manufacture pre
 For each material capability or driver, keep these distinct:
 
 1. **Mandate relevance** — how important it is to the problem the buyer actually owns.
-2. **Alternative supply** — how readily the buyer can source comparable capability through its team, market, network, vendors, or decomposition across multiple specialists.
+2. **Alternative supply** — how readily the buyer can source comparable capability through its team, market, vendors, or decomposition across multiple specialists.
 3. **Evidence strength** — how strongly the proposed option is proven to deliver at the required level.
 4. **Relative advantage** — whether the proposed option is premium, parity, disadvantaged, or unknown versus the best plausible alternative.
 
@@ -149,7 +146,7 @@ If evidence proves relevance but not scarcity or superiority, say:
 
 When claimed value comes from a combination of capabilities, ask:
 
-> **Could the buyer get essentially the same outcome by buying, hiring, or assembling the components separately?**
+> **Could the buyer get essentially the same outcome by buying or assembling the components separately?**
 
 A bundle deserves premium only when integration itself changes value through materially better:
 
@@ -221,7 +218,7 @@ State:
 - lead value driver(s);
 - relative advantage;
 - proof required;
-- product, service, or role boundary;
+- product or service boundary;
 - value-capture mechanism; and
 - explicit non-priorities.
 
@@ -238,7 +235,6 @@ Depending on context, this may mean:
 - outcome-linked pricing;
 - share of value;
 - more budget allocation;
-- executive scope;
 - strategic control of a product line;
 - adoption priority; or
 - resource priority.
@@ -326,6 +322,6 @@ Before finalizing:
 
 ## Lineage and attribution
 
-The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and client-described value / pricing concepts.
+The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
 The workflow above is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Dwight Porter unless independently sourced.
