@@ -1,8 +1,8 @@
 # Mad Skills
 
-**AI skills for decisions and writing that survive reality.**
+**AI skills for decisions, stories, and writing that survive reality.**
 
-Generic AI is good at making an answer sound coherent. Mad Skills are built for what usually breaks next: the buyer has alternatives, people have incentives, budgets move, wording drifts, and polished language can quietly change the thought underneath it.
+Generic AI is good at making an answer sound coherent. Mad Skills are built for what usually breaks next: the buyer has alternatives, people have incentives, budgets move, stories drift away from their thesis, and polished language can quietly change the thought underneath it.
 
 Each skill targets one recurring failure mode and gives ChatGPT, Claude, and other Agent Skills-compatible systems a repeatable way to catch it.
 
@@ -29,6 +29,25 @@ A strategy is not finished if it only works because someone stops spending, give
 
 [Explore Relative Value Strategy](./skills/relative-value-strategy/README.md)
 
+### Storytelling
+
+**Make the audience understand the idea before you name it.**
+
+Use it when the idea is strong but the narrative feels flat, over-explained, framework-first, or hijacked by a good anecdote.
+
+Storytelling:
+
+- locks the governing thesis before shaping the narrative;
+- creates a live question, tension, or puzzle;
+- reveals the mechanism progressively;
+- uses examples only when they do explanatory work;
+- applies the **show-before-name** rule to specialized concepts and frameworks; and
+- earns the ending by changing how the opening is understood.
+
+> **A strong story does not announce the insight. It makes the audience see why the insight has to be true.**
+
+[Explore Storytelling](./skills/storytelling/README.md)
+
 ### Wordsmith
 
 **Make the sentence better without changing the thought.**
@@ -48,18 +67,31 @@ Wordsmith:
 
 [Explore Wordsmith](./skills/wordsmith/README.md)
 
+## How the writing skills compose
+
+Storytelling and Wordsmith solve different problems:
+
+`Storytelling → narrative structure and reveal`
+
+`Wordsmith → sentence and phrase quality`
+
+A useful sequence is:
+
+`Storytelling → Wordsmith`
+
 ## Try it
 
-The repository includes a lightweight public page for testing Relative Value Strategy without an API key:
+The repository includes a lightweight public page for testing Relative Value Strategy without an API key.
 
-- enter the decision;
-- add whatever context matters;
-- build the test; and
-- copy it into ChatGPT or Claude.
+Storytelling can be tried directly with:
 
-The page is implemented in `index.html`, `styles.css`, and `app.js`.
+```text
+Use Storytelling on these notes. Keep the thesis intact, but make the idea unfold naturally:
 
-Wordsmith can be tried directly with prompts such as:
+[PASTE NOTES]
+```
+
+Wordsmith can be tried directly with:
 
 ```text
 Wordsmith this without changing the argument:
@@ -73,6 +105,7 @@ There is one shared implementation per skill:
 
 ```text
 skills/relative-value-strategy/SKILL.md
+skills/storytelling/SKILL.md
 skills/wordsmith/SKILL.md
 ```
 
@@ -80,6 +113,7 @@ For Agent Skills-compatible coding agents:
 
 ```bash
 npx skills add yoda-sahb/Mad_Skills --skill relative-value-strategy
+npx skills add yoda-sahb/Mad_Skills --skill storytelling
 npx skills add yoda-sahb/Mad_Skills --skill wordsmith
 ```
 
@@ -89,10 +123,12 @@ For ChatGPT Skills or Claude environments that support Agent Skills, use the sam
 
 Because that is the shared Agent Skills convention. It is implementation plumbing, not the product name.
 
-The human-facing products are **Relative Value Strategy** and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
+The human-facing products are **Relative Value Strategy**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
 
 ## Attribution
 
 The value-strategy foundation in Relative Value Strategy is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
 Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Porter without independent sourcing.
+
+Storytelling and Wordsmith are independent writing skills derived from the public-safe operating methods used in the author's broader strategy and writing systems.
