@@ -1,23 +1,23 @@
 ---
 name: relative-value-strategy
-description: A buyer-specific strategy skill for finding where an offering, product, company, or leader actually has leverage relative to real alternatives. Use for positioning, pricing, product strategy, portfolio choices, executive value, market entry, or any decision where relevance alone is not enough.
+description: A buyer-specific strategy skill for finding where a product, company, offering, or leader actually has leverage relative to the strongest real alternatives. Use for positioning, pricing, product strategy, portfolio choices, market entry, build-buy-partner decisions, or executive value where relevance alone is not enough.
 ---
 
 # Relative Value Strategy
 
 ## Purpose
 
-Use this skill when the strategic question is not simply whether something is good, useful, differentiated, or technically impressive.
+Use this skill when the strategic question is not simply whether something is useful, differentiated, technically impressive, or relevant.
 
 The governing question is:
 
-> **What does this specific decision-maker value, what are the real alternatives, and where do we create enough relative advantage to change the decision?**
+> **What does this specific decision-maker value, what are the strongest real alternatives, and where do we create enough relative advantage to change the decision?**
 
-The method is designed to prevent a common strategy failure: starting from our capabilities and working backward until we invent a customer need that makes them look valuable.
+The method prevents a common strategy failure: starting from our capabilities and working backward until we invent a customer need that makes them look valuable.
 
 Reason in this order:
 
-`decision-maker → desired outcome → value drivers → importance → alternatives → relative performance → relative premium → human incentives → offering → priorities`
+`decision-maker → desired outcome → value drivers → importance → alternatives → alternative supply → evidence → relative advantage → human incentives → offering → value capture → non-priorities`
 
 ## When to use
 
@@ -44,9 +44,9 @@ Identify:
 - what time horizon matters; and
 - what resource is actually being allocated.
 
-Do not use a broad market segment if the decision is account-specific, role-specific, or situation-specific.
+Do not use a broad market segment when the decision is account-specific, role-specific, or situation-specific.
 
-## 2. Identify the real alternatives
+## 2. Identify the strongest real alternatives
 
 List what the decision-maker can actually do instead.
 
@@ -56,15 +56,18 @@ Include when relevant:
 - direct competitor;
 - adjacent substitute;
 - internal build;
+- current team capability;
+- internal promotion;
+- trusted-network hire;
 - workaround;
-- two or more specialized vendors / teams / hires;
+- two or more specialized vendors, teams, or hires;
 - delay;
 - do nothing; or
 - reallocate the resource elsewhere.
 
 Do not compare only against the weakest convenient alternative.
 
-## 3. Identify value drivers
+## 3. Identify buyer-specific value drivers
 
 Define the dimensions that materially change willingness to choose, pay, adopt, expand, hire, promote, fund, or allocate resources.
 
@@ -82,7 +85,7 @@ Examples:
 - learning speed;
 - measurable business outcome;
 - implementation burden;
-- strategic flexibility;
+- strategic flexibility; and
 - future option value.
 
 If a capability does not change a decision-relevant outcome, it is not yet a value driver.
@@ -97,9 +100,20 @@ For this specific decision, classify each as:
 
 Use numeric weights only when the evidence supports them. Do not manufacture precision.
 
-## 5. Compare relative performance
+## 5. Separate four things that are often collapsed
 
-Evaluate the offering against the best plausible alternatives on each important driver.
+For each material capability or driver, keep these distinct:
+
+1. **Mandate relevance** — how important it is to the problem the buyer actually owns.
+2. **Alternative supply** — how readily the buyer can source comparable capability through its team, market, network, vendors, or decomposition across multiple specialists.
+3. **Evidence strength** — how strongly the proposed option is proven to deliver at the required level.
+4. **Relative advantage** — whether the proposed option is premium, parity, disadvantaged, or unknown versus the best plausible alternative.
+
+A capability can be highly relevant and still create little premium when alternative supply is abundant.
+
+## 6. Compare relative performance
+
+Evaluate the offering against the best plausible alternatives on each important value driver.
 
 Use:
 
@@ -112,10 +126,11 @@ Ask:
 - Where are alternatives already sufficient?
 - Which disadvantages are fatal?
 - Which advantages actually matter to this buyer?
+- Could the buyer already assemble this capability internally?
 
 Existing solutions should be allowed to shrink the thesis.
 
-## 6. Locate the relative premium
+## 7. Locate the relative premium
 
 Classify each important driver:
 
@@ -130,9 +145,9 @@ If evidence proves relevance but not scarcity or superiority, say:
 
 `RELEVANT / RELATIVE PREMIUM UNPROVEN`
 
-## 7. Test the bundle
+## 8. Test the bundle
 
-When the claimed value comes from a combination of capabilities, ask:
+When claimed value comes from a combination of capabilities, ask:
 
 > **Could the buyer get essentially the same outcome by buying, hiring, or assembling the components separately?**
 
@@ -146,9 +161,9 @@ A bundle deserves premium only when integration itself changes value through mat
 - economics; or
 - outcome quality.
 
-If two ordinary components produce the same result, do not invent a bundle premium.
+If ordinary components assembled separately produce essentially the same result, do not invent a bundle premium.
 
-## 8. Run the Elephant Check
+## 9. Run the Elephant Check
 
 Before accepting the economics, put the humans and institutions back into the model.
 
@@ -162,7 +177,7 @@ Required question:
 
 For every material actor, identify:
 
-- actual objective / incentive;
+- actual objective or incentive;
 - baseline behavior;
 - resource being saved, displaced, or constrained;
 - likely resource disposition;
@@ -195,7 +210,7 @@ Always distinguish:
 
 If the thesis only works because actors voluntarily surrender value or resources disappear, revise or kill it.
 
-## 9. Define the offering
+## 10. Define the offering
 
 Translate the surviving relative advantage into a coherent offering.
 
@@ -206,13 +221,13 @@ State:
 - lead value driver(s);
 - relative advantage;
 - proof required;
-- product / service / role boundary;
+- product, service, or role boundary;
 - value-capture mechanism; and
 - explicit non-priorities.
 
 A coherent offering is not a catalog of everything available.
 
-## 10. Choose value capture
+## 11. Choose value capture
 
 Tie value capture to the actual value mechanism.
 
@@ -230,7 +245,7 @@ Depending on context, this may mean:
 
 Do not choose pricing or scope because it is fashionable. Choose it because it matches how value is created and how the buyer behaves.
 
-## 11. Decide what not to prioritize
+## 12. Decide what not to prioritize
 
 A strategy is incomplete until it creates non-priorities.
 
@@ -244,7 +259,7 @@ Explicitly identify:
 
 ## Evidence discipline
 
-Separate:
+Keep separate:
 
 - decision-maker evidence;
 - offering evidence;
@@ -256,6 +271,8 @@ Never infer customer value solely from seller strengths.
 
 Never infer scarcity solely from relevance.
 
+Never infer superiority from technical novelty.
+
 Never assume global efficiency creates incentive compatibility.
 
 ## Output
@@ -266,7 +283,7 @@ For a full diagnostic, return:
 One sentence defining the decision-maker and actual choice.
 
 ### Relative Value Map
-`Value driver | Importance | Best alternative | Offering performance | Relative advantage | Evidence | Confidence`
+`Value driver | Importance | Best alternative | Alternative supply | Proposed option | Evidence strength | Relative advantage | Confidence`
 
 ### Strategic Crux
 The one or two drivers where the decision is most likely won or lost.
@@ -297,9 +314,9 @@ End with one:
 Before finalizing:
 
 1. Did we define the buyer's decision before evaluating our capabilities?
-2. Did we include strong alternatives, including internal build and decomposition?
+2. Did we include the strongest plausible alternatives, including internal capability and decomposition?
 3. Do value drivers describe outcomes rather than features?
-4. Did we distinguish importance from capability strength?
+4. Did we distinguish mandate relevance from alternative supply, evidence strength, and relative advantage?
 5. Did we separate relative advantage from simple relevance?
 6. Did existing alternatives get permission to shrink the thesis?
 7. Does any claimed bundle premium survive the decomposition test?
@@ -309,6 +326,6 @@ Before finalizing:
 
 ## Lineage and attribution
 
-The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, and relative customer value / value-capture logic.
+The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and client-described value / pricing concepts.
 
-The workflow above is not an official Dwight Porter publication and is not presented as endorsed by him. AI-operational controls, including the Elephant Check, are extensions and should not be attributed to Dwight Porter unless independently sourced.
+The workflow above is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Dwight Porter unless independently sourced.
