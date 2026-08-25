@@ -1,62 +1,80 @@
 # Mad Skills
 
-**Strategy tools that make AI harder to fool.**
+**AI skills for decisions that survive reality.**
 
-Mad Skills is a public portfolio of portable reasoning tools for executives, product leaders, and builders. The public experience is designed around trying the method on a real decision, not browsing instruction files.
+Generic AI is good at making a strategy sound coherent. Mad Skills are built for the part that usually breaks next: the buyer has alternatives, people have incentives, budgets move, and the system does not behave the way the slide says it should.
 
-## Flagship tool
+Each skill targets one recurring failure mode and gives ChatGPT, Claude, and other Agent Skills-compatible systems a repeatable way to catch it.
+
+## Flagship skill
 
 ### Relative Value Strategy
 
-A buyer-specific strategy engine for answering:
+**Find where the buyer actually has a reason to choose you.**
 
-> **What does this specific decision-maker value, what are the real alternatives, and where do we create enough relative advantage to change the decision?**
+Use it when you need to decide what to build, how to position it, where you actually have premium, or whether the thesis collapses once you compare it with the best thing the buyer can do instead.
 
-It combines:
+It forces four questions:
 
-- value-driver analysis;
-- real-alternative comparison;
-- relative-premium testing;
-- bundle / decomposition testing;
-- explicit non-priorities; and
-- the **Elephant Check**, which forces human incentives, resource reallocation, and second-order behavior back into the economic model.
+1. **What does this buyer actually value?**
+2. **What can they do instead?**
+3. **Where are you meaningfully better rather than merely relevant?**
+4. **What will the people inside the system actually do once incentives, budgets, authority, and reallocation enter the model?**
 
-The Elephant Check is not a separate skill. It is a mandatory stress test inside Relative Value Strategy.
+That fourth question is the built-in **Elephant Check**:
+
+> **Put the people back in the model.**
+
+A strategy is not finished if it only works because someone stops spending, gives up economics, cooperates against their incentives, or lets a saved resource disappear.
 
 ## Try it
 
-The repository root contains the public portfolio experience:
+The repository includes a lightweight public page for testing a real decision without an API key:
 
-- `index.html`
-- `styles.css`
-- `app.js`
+- enter the decision;
+- add whatever context matters;
+- build the test; and
+- copy it into ChatGPT or Claude.
 
-A visitor enters a real decision, builds the strategy test locally, and can then **Copy + open ChatGPT** or **Copy + open Claude**. No API key is required and the page does not send the visitor's decision to a backend.
+The page is implemented in `index.html`, `styles.css`, and `app.js`.
 
-## ChatGPT + Claude compatibility
+## Install the actual skill
 
-There is one implementation, not separate ChatGPT and Claude forks.
-
-The underlying installable instruction file lives at:
+There is one shared skill implementation:
 
 `skills/relative-value-strategy/SKILL.md`
 
-The filename is intentionally `SKILL.md` because both OpenAI/ChatGPT and Anthropic/Claude use the Agent Skills folder convention. The folder name provides the skill identity; the website provides the human-facing product name.
+For Agent Skills-compatible coding agents, the open skills CLI can install it from this repository:
 
-For a CEO or other visitor, `SKILL.md` is implementation plumbing. The portfolio page should lead with **Relative Value Strategy**, explain what it does, and make it immediately usable. The source file remains available for builders who want to inspect or install the full skill.
+```bash
+npx skills add yoda-sahb/Mad_Skills --skill relative-value-strategy
+```
+
+For ChatGPT Skills or Claude environments that support Agent Skills, use the same `relative-value-strategy` skill folder. The core instructions are not forked into separate ChatGPT and Claude versions.
+
+## Why `SKILL.md`?
+
+Because that is the shared Agent Skills convention. It is implementation plumbing, not the product name.
+
+The human-facing product is **Relative Value Strategy**. The `SKILL.md` file is what compatible agents load when the skill is relevant.
+
+## What a full run returns
+
+- the actual decision;
+- the strongest alternatives;
+- the value drivers that matter;
+- where relative advantage is supported versus unproven;
+- the Elephant Check on incentives and resource reallocation;
+- the strategic crux;
+- explicit non-priorities; and
+- the evidence that would change the conclusion.
 
 ## Attribution
 
-The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, and relative customer-value / value-capture logic.
+The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
-Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. AI-operational extensions, including the Elephant Check, are original implementation layers and should not be attributed to Porter without independent sourcing.
+Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Porter without independent sourcing.
 
-## Repository principles
+## Standard
 
-- Start from the decision-maker, not the seller's capabilities.
-- Compare against the strongest plausible alternatives.
-- Relevance is not relative premium.
-- Existing solutions are allowed to shrink the thesis.
-- Human incentives belong inside the model.
-- Saved resources do not disappear by default.
-- A strategy is incomplete until it creates non-priorities.
+**A strategy should survive the best alternative and the people inside the system.**
