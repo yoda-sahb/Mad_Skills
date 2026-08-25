@@ -8,7 +8,7 @@ Each skill targets one recurring failure mode and gives ChatGPT, Claude, and oth
 
 ## Skills
 
-### Relative Value Strategy
+### Product Value-Strategy
 
 **Find where the buyer actually has a reason to choose you.**
 
@@ -27,7 +27,7 @@ That fourth question is the built-in **Elephant Check**:
 
 A strategy is not finished if it only works because someone stops spending, gives up economics, cooperates against their incentives, or lets a saved resource disappear.
 
-[Explore Relative Value Strategy](./skills/relative-value-strategy/README.md)
+[Explore Product Value-Strategy](./skills/product-value-strategy/README.md)
 
 ### Storytelling
 
@@ -81,7 +81,7 @@ A useful sequence is:
 
 ## Try it
 
-The repository includes a lightweight public page for testing Relative Value Strategy without an API key.
+The repository includes a lightweight public page for testing Product Value-Strategy without an API key.
 
 Storytelling can be tried directly with:
 
@@ -104,7 +104,7 @@ Wordsmith this without changing the argument:
 There is one shared implementation per skill:
 
 ```text
-skills/relative-value-strategy/SKILL.md
+skills/product-value-strategy/SKILL.md
 skills/storytelling/SKILL.md
 skills/wordsmith/SKILL.md
 ```
@@ -112,7 +112,7 @@ skills/wordsmith/SKILL.md
 For Agent Skills-compatible coding agents:
 
 ```bash
-npx skills add yoda-sahb/Mad_Skills --skill relative-value-strategy
+npx skills add yoda-sahb/Mad_Skills --skill product-value-strategy
 npx skills add yoda-sahb/Mad_Skills --skill storytelling
 npx skills add yoda-sahb/Mad_Skills --skill wordsmith
 ```
@@ -123,11 +123,11 @@ For ChatGPT Skills or Claude environments that support Agent Skills, use the sam
 
 Because that is the shared Agent Skills convention. It is implementation plumbing, not the product name.
 
-The human-facing products are **Relative Value Strategy**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
+The human-facing products are **Product Value-Strategy**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
 
 ## Attribution
 
-The value-strategy foundation in Relative Value Strategy is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
+The value-strategy foundation in Product Value-Strategy is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
 Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Porter without independent sourcing.
 
