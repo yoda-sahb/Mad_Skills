@@ -163,4 +163,4 @@ The value-strategy foundation in Product Value-Strategy is an independent operat
 
 Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Porter without independent sourcing.
 
-Storytelling and Wordsmith are independent writing skills derived from the public-safe operating methods used in the author's broader strategy and writing systems.
+Storytelling and Wordsmith are independent writing skills.
