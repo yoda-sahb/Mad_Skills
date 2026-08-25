@@ -1,40 +1,56 @@
 # Mad Skills
 
-Public, portable Agent Skills for strategy, product, innovation, and decision work.
+**Strategy tools that make AI harder to fool.**
 
-Each skill is packaged as a standalone folder with a required `SKILL.md` and optional supporting Markdown resources. The format is intentionally compatible with the Agent Skills pattern used by ChatGPT/OpenAI and Claude/Anthropic.
+Mad Skills is a public portfolio of portable reasoning skills for executives, product leaders, and builders. Each skill is designed around a specific strategic failure mode and can be used in both ChatGPT and Claude.
 
-## Skills
+The portfolio is intentionally small. One skill should do one important job well.
 
-### Dwight Value Strategy
+## Flagship skill
 
-`skills/dwight-value-strategy/`
+### Relative Value Strategy
 
-A value-strategy workflow for identifying what a specific customer or decision-maker values, comparing real alternatives on weighted value drivers, locating relative premium, and turning repeated value into a coherent offering and value-capture strategy.
+`skills/relative-value-strategy/SKILL.md`
 
-This is an independent operationalization of concepts attributed to Dwight Porter. It is not an official Dwight Porter publication and is not presented as endorsed by him.
+A buyer-specific strategy engine for answering:
 
-### Elephant Check
+> **What does this specific decision-maker value, what are the real alternatives, and where do we create enough relative advantage to change the decision?**
 
-`skills/elephant-check/`
+It combines:
 
-A behavioral and economic reality check for strategies that assume people or institutions will stop spending, surrender economics, abandon incentives, cooperate, or let saved resources disappear merely because the total system becomes more efficient.
+- value-driver analysis;
+- real-alternative comparison;
+- relative-premium testing;
+- bundle / decomposition testing;
+- explicit non-priorities; and
+- the **Elephant Check**, which forces human incentives, resource reallocation, and second-order behavior back into the economic model.
 
-Core question: **What will the human or institution actually do with the freed resource?**
+The Elephant Check is not a separate skill. It is a mandatory stress test inside Relative Value Strategy.
+
+## Try it
+
+The repository includes a lightweight public portfolio page that turns a real decision into a portable test prompt for ChatGPT or Claude.
+
+Open `index.html` locally, or publish the repository root through GitHub Pages / any static host.
+
+No API key is required. The page does not send user input anywhere; it only constructs a prompt that can be copied into the user's preferred AI tool.
 
 ## Compatibility
 
-The skills use plain Markdown plus YAML frontmatter and do not require vendor-specific code. Supporting resources are also Markdown. This keeps the repository portable across AI systems that support Agent Skills / `SKILL.md` workflows.
+The skill uses plain Markdown plus YAML frontmatter following the common `SKILL.md` Agent Skills pattern. It has no vendor-specific code dependency and is intended to remain portable across ChatGPT/OpenAI and Claude/Anthropic environments that support skills or instruction files.
 
-## Design principles
+## Attribution
 
-- One job per skill.
-- Explicit triggers and stopping conditions.
-- Separate observed evidence from inference.
-- Prefer relative value over generic capability claims.
-- Model human incentives before accepting system-level efficiency claims.
-- Keep supporting files optional so the core skill remains portable.
+The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, and relative customer-value / value-capture logic.
 
-## Repository status
+Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. AI-operational extensions, including the Elephant Check, are original implementation layers and should not be attributed to Porter without independent sourcing.
 
-Working public library. Skills may evolve as they are tested against real cases.
+## Repository principles
+
+- Start from the decision-maker, not the seller's capabilities.
+- Compare against the strongest plausible alternatives.
+- Relevance is not relative premium.
+- Existing solutions are allowed to shrink the thesis.
+- Human incentives belong inside the model.
+- Saved resources do not disappear by default.
+- A strategy is incomplete until it creates non-priorities.
