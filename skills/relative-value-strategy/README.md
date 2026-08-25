@@ -1,75 +1,102 @@
 # Relative Value Strategy
 
-A portable strategy skill for finding where a product, company, offering, or leader actually has leverage relative to the strongest real alternatives.
+**Find where the buyer actually has a reason to choose you.**
 
-> **What does this specific decision-maker value, what are the strongest real alternatives, and where do we create enough relative advantage to change the decision?**
+Most strategy starts with what we built, what we are good at, or what we want to sell. This skill starts somewhere harder:
 
-## Works with
+> **What can the decision-maker do instead?**
 
-- ChatGPT / OpenAI environments that support `SKILL.md`-style Agent Skills
-- Claude / Anthropic environments that support `SKILL.md`-style skills
-- Any other instruction-based agent that can load Markdown system guidance
+Relative Value Strategy is useful when an option looks relevant or differentiated, but that is not enough to know whether it should win.
 
-The same `SKILL.md` is used across supported environments. There is no separate ChatGPT or Claude fork.
+## The four tests
 
-## What it does
+### 1. What does the buyer actually value?
 
-Relative Value Strategy forces a decision through four hard tests:
+Identify the outcomes that really change the decision. Capabilities only matter when they move those outcomes.
 
-1. **Buyer value** — what actually changes the decision?
-2. **Real alternatives** — what can the buyer do instead, including internal build, current-team capability, decomposition, waiting, or reallocating the resource?
-3. **Relative premium** — where are you meaningfully better versus merely relevant or at parity?
-4. **Elephant Check** — what will the humans and institutions actually do once incentives, budgets, authority, and saved resources are put back into the model?
+### 2. What can the buyer do instead?
 
-## The Elephant Anti-Pattern
+Compare against the strongest real alternatives: incumbent, internal build, current team, another vendor, multiple specialists, delay, or reallocation.
 
-> **A strategy assumes an actor will stop spending, surrender economics, abandon an incentive, cooperate, or behave “rationally” merely because the proposed system makes that behavior globally efficient.**
+### 3. Where are you actually better?
 
-Required question:
+Separate:
 
-> **What will the human or institution actually do with the freed resource?**
+- relevance;
+- alternative supply;
+- evidence strength; and
+- relative advantage.
 
-For advertising, the skill uses a defeasible prior that committed marketing budget is generally intended to be deployed within an approved planning horizon. A poor action therefore usually implies **reallocation**, not magically unspent budget.
+A capability can be important and still create no premium if the buyer can source it easily somewhere else.
 
-## Example uses
+### 4. What will people actually do?
 
-- Pressure-test a product strategy before funding it
-- Decide whether a capability is true differentiation or table stakes
-- Compare a proposed product against internal build and incumbent alternatives
-- Find the one or two value drivers that should lead positioning
-- Test whether a capability bundle is genuinely scarce or easily assembled
-- Identify where saved budget, time, inventory, attention, or authority really goes
-- Build explicit non-priorities into a strategy
+Run the built-in **Elephant Check**.
 
-## Use
+> **Put the people back in the model.**
 
-Load [`SKILL.md`](./SKILL.md) as the skill instructions, then give the model a real decision and relevant evidence.
+A strategy fails the test if it only works because someone stops spending, gives up economics, cooperates against their incentives, or lets a saved resource disappear.
 
-Example:
+For advertising, that means a poor media decision usually does not imply unused budget. The budget is more likely to move somewhere else.
+
+## Use it for
+
+- product strategy;
+- positioning;
+- pricing;
+- market entry;
+- portfolio choices;
+- build / buy / partner decisions;
+- executive or career positioning; and
+- deciding what *not* to fund.
+
+## Example
 
 ```text
 Use Relative Value Strategy on this decision:
 
-We are considering launching a premium AI analytics product for enterprise customers. The technology is differentiated, but customers may be able to assemble similar value from their existing data warehouse, BI stack, and internal team.
+We are considering a premium AI analytics product for enterprise customers. The technology is differentiated, but customers may be able to get most of the value from their existing warehouse, BI stack, and internal team.
 
-Should we launch, what should lead the positioning, and what should we deliberately not build?
+Should we launch? What should lead the positioning? What should we deliberately not build?
 ```
 
-## Output
+A full run should identify:
 
-A full run returns:
+- the actual decision;
+- the strongest alternatives;
+- the value drivers that matter;
+- supported advantage versus parity or uncertainty;
+- the Elephant Check on incentives and reallocation;
+- the strategic crux;
+- explicit non-priorities; and
+- the evidence that could change the conclusion.
 
-- Decision
-- Relative Value Map
-- Strategic Crux
-- Elephant Check
-- Offering
-- Non-priorities
-- Evidence gaps
-- Verdict
+## ChatGPT + Claude
+
+There is one implementation:
+
+[`SKILL.md`](./SKILL.md)
+
+The same core skill is designed for Agent Skills-compatible environments rather than separate ChatGPT and Claude forks.
+
+- **ChatGPT Skills:** use or upload the `relative-value-strategy` skill in a ChatGPT environment that supports Skills.
+- **Claude / Claude Code:** use the same skill folder in an Agent Skills-compatible Claude environment.
+- **Other agents:** the folder follows the shared `SKILL.md` Agent Skills convention and can be used by compatible runtimes.
+
+For compatible coding agents, you can also install from the repository with:
+
+```bash
+npx skills add yoda-sahb/Mad_Skills --skill relative-value-strategy
+```
+
+## Why `SKILL.md`?
+
+Because that is the shared implementation convention. It is not the brand.
+
+**Relative Value Strategy** is the product name. `SKILL.md` is the file compatible agents load.
 
 ## Attribution
 
-The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and client-described value / pricing concepts.
+The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
-This repository is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Dwight Porter unless independently sourced.
+This repository is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Porter without independent sourcing.
