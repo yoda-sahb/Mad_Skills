@@ -2,15 +2,11 @@
 
 **Strategy tools that make AI harder to fool.**
 
-Mad Skills is a public portfolio of portable reasoning skills for executives, product leaders, and builders. Each skill is designed around a specific strategic failure mode and can be used in both ChatGPT and Claude.
+Mad Skills is a public portfolio of portable reasoning tools for executives, product leaders, and builders. The public experience is designed around trying the method on a real decision, not browsing instruction files.
 
-The portfolio is intentionally small. One skill should do one important job well.
-
-## Flagship skill
+## Flagship tool
 
 ### Relative Value Strategy
-
-`skills/relative-value-strategy/SKILL.md`
 
 A buyer-specific strategy engine for answering:
 
@@ -29,15 +25,25 @@ The Elephant Check is not a separate skill. It is a mandatory stress test inside
 
 ## Try it
 
-The repository includes a lightweight public portfolio page that turns a real decision into a portable test prompt for ChatGPT or Claude.
+The repository root contains the public portfolio experience:
 
-Open `index.html` locally, or publish the repository root through GitHub Pages / any static host.
+- `index.html`
+- `styles.css`
+- `app.js`
 
-No API key is required. The page does not send user input anywhere; it only constructs a prompt that can be copied into the user's preferred AI tool.
+A visitor enters a real decision, builds the strategy test locally, and can then **Copy + open ChatGPT** or **Copy + open Claude**. No API key is required and the page does not send the visitor's decision to a backend.
 
-## Compatibility
+## ChatGPT + Claude compatibility
 
-The skill uses plain Markdown plus YAML frontmatter following the common `SKILL.md` Agent Skills pattern. It has no vendor-specific code dependency and is intended to remain portable across ChatGPT/OpenAI and Claude/Anthropic environments that support skills or instruction files.
+There is one implementation, not separate ChatGPT and Claude forks.
+
+The underlying installable instruction file lives at:
+
+`skills/relative-value-strategy/SKILL.md`
+
+The filename is intentionally `SKILL.md` because both OpenAI/ChatGPT and Anthropic/Claude use the Agent Skills folder convention. The folder name provides the skill identity; the website provides the human-facing product name.
+
+For a CEO or other visitor, `SKILL.md` is implementation plumbing. The portfolio page should lead with **Relative Value Strategy**, explain what it does, and make it immediately usable. The source file remains available for builders who want to inspect or install the full skill.
 
 ## Attribution
 
