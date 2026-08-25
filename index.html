@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Mad Skills is a public strategy lab. Try Relative Value Strategy on a real executive decision, then run the resulting prompt in ChatGPT or Claude." />
+  <meta name="description" content="Mad Skills is a public strategy lab. Try Relative Value Strategy on a real executive decision in ChatGPT or Claude." />
   <meta property="og:title" content="Mad Skills — Strategy tools that make AI harder to fool" />
-  <meta property="og:description" content="A public strategy lab for executives, product leaders, and builders. Try Relative Value Strategy on a real decision." />
+  <meta property="og:description" content="A public strategy lab for executives, product leaders, and builders. Try Relative Value Strategy in ChatGPT or Claude." />
   <title>Mad Skills — Strategy tools that make AI harder to fool</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -30,13 +30,13 @@
         The first skill is built for a deceptively hard question: where do you actually have leverage relative to the alternatives your customer can choose?
       </p>
       <div class="hero-actions">
-        <a class="button primary" href="#try">Try it on a real decision</a>
+        <a class="button primary" href="#try">Try Relative Value Strategy</a>
         <a class="button secondary" href="#skill">See how it works</a>
       </div>
       <div class="trust-row" aria-label="Compatibility">
-        <span>ChatGPT compatible</span>
-        <span>Claude compatible</span>
-        <span>No API key</span>
+        <span>Works with ChatGPT</span>
+        <span>Works with Claude</span>
+        <span>One shared skill format</span>
         <span>Open source</span>
       </div>
     </section>
@@ -55,10 +55,14 @@
         <div>
           <p class="eyebrow">FLAGSHIP SKILL</p>
           <h2>Relative Value Strategy</h2>
+          <div class="compat-badges" aria-label="Supported AI environments">
+            <span>ChatGPT</span>
+            <span>Claude</span>
+          </div>
         </div>
         <p class="section-intro">
           A buyer-specific strategy engine for product, positioning, pricing, portfolio, market-entry, and executive decisions.
-          It is designed to separate real relative premium from capability that is merely relevant.
+          It separates real relative premium from capability that is merely relevant.
         </p>
       </div>
 
@@ -105,7 +109,14 @@
         <span>Portfolio allocation</span>
       </div>
 
-      <a class="inline-link" href="https://github.com/yoda-sahb/Mad_Skills/blob/main/skills/relative-value-strategy/SKILL.md" target="_blank" rel="noreferrer">Read the full portable skill ↗</a>
+      <div class="builder-note">
+        <div>
+          <p class="mini-label">FOR BUILDERS</p>
+          <strong>One implementation works in both ecosystems.</strong>
+          <p>The underlying instruction file is deliberately named <code>SKILL.md</code> because that is the shared Agent Skills convention used by ChatGPT/OpenAI and Claude/Anthropic.</p>
+        </div>
+        <a class="inline-link" href="https://github.com/yoda-sahb/Mad_Skills/blob/main/skills/relative-value-strategy/SKILL.md" target="_blank" rel="noreferrer">View implementation source ↗</a>
+      </div>
     </section>
 
     <section id="try" class="try-section">
@@ -115,7 +126,7 @@
             <p class="eyebrow">TRY IT</p>
             <h2>Bring a real decision.</h2>
           </div>
-          <p class="section-intro">No signup. No data sent anywhere. This page builds a portable prompt you can run in ChatGPT or Claude.</p>
+          <p class="section-intro">No signup. No API key. This page builds the strategy test locally, then lets you take it directly into ChatGPT or Claude.</p>
         </div>
 
         <div class="playground">
@@ -132,16 +143,17 @@
           <div class="output-panel">
             <div class="output-head">
               <div>
-                <p class="mini-label">PORTABLE PROMPT</p>
+                <p class="mini-label">YOUR STRATEGY TEST</p>
                 <strong>Relative Value Strategy</strong>
               </div>
-              <button id="copyPrompt" class="copy-button" disabled>Copy</button>
+              <button id="copyPrompt" class="copy-button" disabled>Copy prompt</button>
             </div>
             <pre id="promptOutput">Your strategy-test prompt will appear here.</pre>
-            <div class="provider-row">
-              <a href="https://chatgpt.com/" target="_blank" rel="noreferrer">Open ChatGPT ↗</a>
-              <a href="https://claude.ai/new" target="_blank" rel="noreferrer">Open Claude ↗</a>
+            <div class="provider-actions">
+              <button id="openChatGPT" class="provider-button" disabled>Copy + open ChatGPT ↗</button>
+              <button id="openClaude" class="provider-button" disabled>Copy + open Claude ↗</button>
             </div>
+            <p class="provider-note">Both buttons use the same strategy prompt. No separate ChatGPT or Claude version is required.</p>
           </div>
         </div>
       </div>
@@ -153,7 +165,7 @@
       <p>
         If the thesis only works because competitors are ignored, customers value what we happen to sell, or actors voluntarily surrender their incentives, it is not finished.
       </p>
-      <a class="button secondary" href="https://github.com/yoda-sahb/Mad_Skills" target="_blank" rel="noreferrer">Explore the source on GitHub ↗</a>
+      <a class="button secondary" href="https://github.com/yoda-sahb/Mad_Skills" target="_blank" rel="noreferrer">Explore the project on GitHub ↗</a>
     </section>
   </main>
 
