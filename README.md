@@ -1,10 +1,24 @@
 # Mad Skills
 
-**AI skills for decisions, stories, and writing that survive reality.**
+> **Better thinking, stories, and writing for AI.**
+>
+> Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems.
 
-Generic AI is good at making an answer sound coherent. Mad Skills are built for what usually breaks next: the buyer has alternatives, people have incentives, budgets move, stories drift away from their thesis, and polished language can quietly change the thought underneath it.
+**[Browse the skills](#skills)** · **[Try one](#try-it)** · **[Install](#install)** · **[Open the public page](./index.html)**
 
-Each skill targets one recurring failure mode and gives ChatGPT, Claude, and other Agent Skills-compatible systems a repeatable way to catch it.
+| Product Value-Strategy | Storytelling | Wordsmith |
+|---|---|---|
+| **Find where the buyer actually has a reason to choose you.** | **Make the audience understand the idea before you name it.** | **Make the sentence better without changing the thought.** |
+| Strategy, positioning, pricing, product choices, build/buy/partner. | Narrative structure, tension, reveal, examples, frameworks. | Clarity, compression, cadence, naming, headlines, voice. |
+| [Explore →](./skills/product-value-strategy/README.md) | [Explore →](./skills/storytelling/README.md) | [Explore →](./skills/wordsmith/README.md) |
+
+---
+
+## Why Mad Skills
+
+Generic AI is good at making an answer sound coherent. The harder failure modes come next: the buyer has alternatives, people have incentives, budgets move, stories drift away from their thesis, and polished language can quietly change the thought underneath it.
+
+Mad Skills turns those recurring failure modes into reusable operating instructions rather than one-off prompts.
 
 ## Skills
 
@@ -27,7 +41,7 @@ That fourth question is the built-in **Elephant Check**:
 
 A strategy is not finished if it only works because someone stops spending, gives up economics, cooperates against their incentives, or lets a saved resource disappear.
 
-[Explore Product Value-Strategy](./skills/product-value-strategy/README.md)
+[Explore Product Value-Strategy →](./skills/product-value-strategy/README.md)
 
 ### Storytelling
 
@@ -46,7 +60,7 @@ Storytelling:
 
 > **A strong story does not announce the insight. It makes the audience see why the insight has to be true.**
 
-[Explore Storytelling](./skills/storytelling/README.md)
+[Explore Storytelling →](./skills/storytelling/README.md)
 
 ### Wordsmith
 
@@ -65,25 +79,35 @@ Wordsmith:
 
 > **Better wording should make the thought clearer, not turn it into a different thought.**
 
-[Explore Wordsmith](./skills/wordsmith/README.md)
+[Explore Wordsmith →](./skills/wordsmith/README.md)
 
-## How the writing skills compose
+## How they compose
 
-Storytelling and Wordsmith solve different problems:
+These skills solve different layers of the problem:
 
-`Storytelling → narrative structure and reveal`
+`Product Value-Strategy → choose the strongest argument`
 
-`Wordsmith → sentence and phrase quality`
+`Storytelling → make the argument unfold`
 
-A useful sequence is:
+`Wordsmith → improve the language without changing the argument`
 
-`Storytelling → Wordsmith`
+A useful sequence for strategic communication is:
+
+`Product Value-Strategy → Storytelling → Wordsmith`
 
 ## Try it
 
-The repository includes a lightweight public page for testing Product Value-Strategy without an API key.
+### Product Value-Strategy
 
-Storytelling can be tried directly with:
+The repository includes a lightweight public page for exploring the method without an API key. Open [`index.html`](./index.html) locally, or use the skill directly in a compatible agent.
+
+```text
+Use Product Value-Strategy on this decision. Identify what the buyer values, the strongest alternatives, where I have real premium, and run the Elephant Check:
+
+[PASTE DECISION]
+```
+
+### Storytelling
 
 ```text
 Use Storytelling on these notes. Keep the thesis intact, but make the idea unfold naturally:
@@ -91,7 +115,7 @@ Use Storytelling on these notes. Keep the thesis intact, but make the idea unfol
 [PASTE NOTES]
 ```
 
-Wordsmith can be tried directly with:
+### Wordsmith
 
 ```text
 Wordsmith this without changing the argument:
@@ -124,6 +148,14 @@ For ChatGPT Skills or Claude environments that support Agent Skills, use the sam
 Because that is the shared Agent Skills convention. It is implementation plumbing, not the product name.
 
 The human-facing products are **Product Value-Strategy**, **Storytelling**, and **Wordsmith**. `SKILL.md` is what compatible agents load when a skill is relevant.
+
+## Public design principle
+
+Each public skill should make five things obvious without requiring the reader to inspect the implementation:
+
+`Problem → Method → Example → Try it → Install`
+
+The implementation remains inspectable for builders, but the repository is designed first as a product portfolio rather than a folder of prompt files.
 
 ## Attribution
 
