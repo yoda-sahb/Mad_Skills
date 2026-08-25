@@ -22,7 +22,7 @@ function buildPrompt() {
     return false;
   }
 
-  const prompt = `Use Relative Value Strategy on the decision below.
+  const prompt = `Use Product Value-Strategy on the decision below.
 
 DECISION
 ${decisionText}
