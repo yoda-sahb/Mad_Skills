@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Mad Skills is a public strategy lab. Try Relative Value Strategy on a real executive decision, then run the resulting prompt in ChatGPT or Claude." />
+  <meta property="og:title" content="Mad Skills — Strategy tools that make AI harder to fool" />
+  <meta property="og:description" content="A public strategy lab for executives, product leaders, and builders. Try Relative Value Strategy on a real decision." />
+  <title>Mad Skills — Strategy tools that make AI harder to fool</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-shell">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top">MAD SKILLS</a>
+      <div class="nav-links">
+        <a href="#skill">The skill</a>
+        <a href="#try">Try it</a>
+        <a href="https://github.com/yoda-sahb/Mad_Skills" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="eyebrow">PUBLIC STRATEGY LAB</div>
+      <h1>AI should not just help you think faster.<br />It should make your strategy harder to fool.</h1>
+      <p class="hero-copy">
+        Mad Skills is a portfolio of portable reasoning tools for executives, product leaders, and builders.
+        The first skill is built for a deceptively hard question: where do you actually have leverage relative to the alternatives your customer can choose?
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#try">Try it on a real decision</a>
+        <a class="button secondary" href="#skill">See how it works</a>
+      </div>
+      <div class="trust-row" aria-label="Compatibility">
+        <span>ChatGPT compatible</span>
+        <span>Claude compatible</span>
+        <span>No API key</span>
+        <span>Open source</span>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="container quote-grid">
+        <p class="quote-label">THE QUESTION</p>
+        <blockquote>
+          What does this specific decision-maker value, what are the real alternatives, and where do we create enough relative advantage to change the decision?
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="skill" class="section container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">FLAGSHIP SKILL</p>
+          <h2>Relative Value Strategy</h2>
+        </div>
+        <p class="section-intro">
+          A buyer-specific strategy engine for product, positioning, pricing, portfolio, market-entry, and executive decisions.
+          It is designed to separate real relative premium from capability that is merely relevant.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="number">01</div>
+          <h3>Start with the decision</h3>
+          <p>Define who is choosing, what they are trying to achieve, and which resource is actually being allocated.</p>
+        </article>
+        <article class="feature-card">
+          <div class="number">02</div>
+          <h3>Compare real alternatives</h3>
+          <p>Include the incumbent, internal build, workarounds, decomposition into multiple vendors or hires, delay, and reallocation.</p>
+        </article>
+        <article class="feature-card">
+          <div class="number">03</div>
+          <h3>Find relative premium</h3>
+          <p>Weight the value drivers that matter to this buyer and identify where your advantage is both important and hard to substitute.</p>
+        </article>
+        <article class="feature-card elephant-card">
+          <div class="number">04</div>
+          <h3>Run the Elephant Check</h3>
+          <p>Put human incentives back into the model. Saved money, time, authority, inventory, or budget does not disappear by default.</p>
+        </article>
+      </div>
+
+      <div class="elephant-panel">
+        <div>
+          <p class="mini-label">BUILT-IN STRESS TEST</p>
+          <h3>The Elephant Anti-Pattern</h3>
+        </div>
+        <p>
+          A strategy assumes an actor will stop spending, surrender economics, abandon an incentive, cooperate, or behave “rationally” merely because the proposed system makes that behavior globally efficient.
+        </p>
+        <div class="elephant-question">What will the human or institution actually do with the freed resource?</div>
+      </div>
+
+      <div class="use-cases">
+        <span>Product strategy</span>
+        <span>Pricing</span>
+        <span>Market entry</span>
+        <span>Executive positioning</span>
+        <span>Build / buy / partner</span>
+        <span>Portfolio allocation</span>
+      </div>
+
+      <a class="inline-link" href="https://github.com/yoda-sahb/Mad_Skills/blob/main/skills/relative-value-strategy/SKILL.md" target="_blank" rel="noreferrer">Read the full portable skill ↗</a>
+    </section>
+
+    <section id="try" class="try-section">
+      <div class="container">
+        <div class="section-head inverse">
+          <div>
+            <p class="eyebrow">TRY IT</p>
+            <h2>Bring a real decision.</h2>
+          </div>
+          <p class="section-intro">No signup. No data sent anywhere. This page builds a portable prompt you can run in ChatGPT or Claude.</p>
+        </div>
+
+        <div class="playground">
+          <div class="input-panel">
+            <label for="decision">What decision are you trying to make?</label>
+            <textarea id="decision" rows="7" placeholder="Example: We are considering a premium AI product for enterprise customers. The capability is technically differentiated, but customers may be able to assemble similar value from existing vendors. Should we launch, and what should lead the positioning?"></textarea>
+
+            <label for="context">Optional context</label>
+            <textarea id="context" rows="5" placeholder="Buyer, alternatives, economics, constraints, evidence, internal politics, timing, or anything else that matters."></textarea>
+
+            <button id="buildPrompt" class="button primary full">Build the strategy test</button>
+          </div>
+
+          <div class="output-panel">
+            <div class="output-head">
+              <div>
+                <p class="mini-label">PORTABLE PROMPT</p>
+                <strong>Relative Value Strategy</strong>
+              </div>
+              <button id="copyPrompt" class="copy-button" disabled>Copy</button>
+            </div>
+            <pre id="promptOutput">Your strategy-test prompt will appear here.</pre>
+            <div class="provider-row">
+              <a href="https://chatgpt.com/" target="_blank" rel="noreferrer">Open ChatGPT ↗</a>
+              <a href="https://claude.ai/new" target="_blank" rel="noreferrer">Open Claude ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container final-section">
+      <p class="eyebrow">THE STANDARD</p>
+      <h2>A strategy should survive its strongest alternative and the people inside the system.</h2>
+      <p>
+        If the thesis only works because competitors are ignored, customers value what we happen to sell, or actors voluntarily surrender their incentives, it is not finished.
+      </p>
+      <a class="button secondary" href="https://github.com/yoda-sahb/Mad_Skills" target="_blank" rel="noreferrer">Explore the source on GitHub ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <strong>Mad Skills</strong>
+        <p>Portable strategy tools for harder decisions.</p>
+      </div>
+      <p class="fine-print">
+        Relative Value Strategy is an independent operationalization of value-strategy concepts attributed to Dwight Porter, extended with AI-operational controls. It is not an official Porter publication or endorsement.
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
