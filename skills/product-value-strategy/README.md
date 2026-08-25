@@ -46,8 +46,7 @@ For advertising, that means a poor media decision usually does not imply unused 
 - pricing;
 - market entry;
 - portfolio choices;
-- build / buy / partner decisions;
-- executive or career positioning; and
+- build / buy / partner decisions; and
 - deciding what *not* to fund.
 
 ## Example
