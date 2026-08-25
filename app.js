@@ -22,30 +22,33 @@ function buildPrompt() {
     return false;
   }
 
-  const prompt = `Use the Relative Value Strategy skill on the decision below.
+  const prompt = `Use Relative Value Strategy on the decision below.
 
 DECISION
 ${decisionText}
 
-${contextText ? `CONTEXT\n${contextText}\n\n` : ''}METHOD
-1. Define the actual decision-maker, desired outcome, constraints, time horizon, and resource being allocated.
-2. Identify the strongest real alternatives, including incumbent, internal build, workarounds, decomposition into multiple vendors/teams/hires, delay, do nothing, or reallocation when relevant.
-3. Identify the buyer-specific value drivers. Do not substitute seller capabilities for customer value.
-4. Weight each driver by importance to this specific decision.
-5. Compare the proposed option against the strongest alternatives. Separate ADVANTAGE, PARITY, DISADVANTAGE, and UNKNOWN.
-6. Identify the one or two drivers where relative premium is actually supported. If evidence proves relevance but not scarcity or superiority, say RELEVANT / RELATIVE PREMIUM UNPROVEN.
-7. Test any capability bundle by asking whether the buyer could obtain essentially the same outcome by assembling the components separately.
-8. Run the Elephant Check. Identify each material actor's actual incentive, baseline behavior, what resource is saved/displaced, where that resource will really go, second-order adaptation, and elasticity. Do not let saved resources disappear by assumption.
-9. Translate the surviving advantage into a coherent offering and explicit non-priorities.
-10. Separate evidence from inference and identify what would falsify the strategy.
+${contextText ? `CONTEXT\n${contextText}\n\n` : ''}PRESSURE-TEST IT IN FOUR PASSES
+
+1. WHAT MATTERS?
+Define the actual decision-maker, the outcome they care about, the constraints, time horizon, and resource being allocated. Identify the value drivers that truly change this decision. Do not substitute our capabilities for customer value.
+
+2. WHAT CAN THEY DO INSTEAD?
+Compare against the strongest plausible alternatives: incumbent, internal build, current team, another vendor, multiple specialists, workaround, delay, do nothing, or reallocation when relevant. Let strong alternatives shrink the thesis.
+
+3. WHERE ARE WE ACTUALLY BETTER?
+Separate mandate relevance, alternative supply, evidence strength, and relative advantage. Distinguish ADVANTAGE, PARITY, DISADVANTAGE, and UNKNOWN. If the option is relevant but not scarce or superior, say so. Test any bundle by asking whether the buyer could assemble essentially the same outcome another way.
+
+4. WHAT WILL PEOPLE ACTUALLY DO?
+Run the Elephant Check. Identify each material actor's real incentive, baseline behavior, what resource is saved or displaced, where that resource will actually go, likely second-order adaptation, and elasticity over the relevant horizon. Do not let money, time, inventory, authority, or attention disappear by assumption.
+
+Then identify the strategic crux: the one or two things most likely to decide the outcome. State what should lead, what should not be prioritized, and what evidence would change the conclusion.
 
 OUTPUT
-Return:
 - Decision
-- Relative Value Map: Value driver | Importance | Best alternative | Proposed option | Relative advantage | Evidence | Confidence
+- Relative Value Map: Value driver | Importance | Best alternative | Alternative supply | Proposed option | Evidence strength | Relative advantage | Confidence
 - Strategic Crux
 - Elephant Check: Actor | Actual incentive | Baseline behavior | Freed/displaced resource | Likely disposition | Adaptation | Elasticity
-- Offering / Positioning
+- What should lead
 - Non-priorities
 - Evidence gaps
 - Verdict: RELATIVE_PREMIUM_SUPPORTED | RELEVANT_BUT_PREMIUM_UNPROVEN | PARITY / TABLE_STAKES | STRUCTURAL_DISADVANTAGE | STRATEGY_FAILS_ELEPHANT
