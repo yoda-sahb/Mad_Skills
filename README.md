@@ -1,16 +1,31 @@
-# Mad Skills
+<p align="center">
+  <img src="./assets/hero.svg" alt="Mad Skills — Better thinking, stories, and writing for AI" width="100%">
+</p>
 
-> **Better thinking, stories, and writing for AI.**
->
-> Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems.
+<p align="center">
+  <strong><a href="#choose-a-skill">Browse Skills</a></strong> ·
+  <strong><a href="#try-it">Try One</a></strong> ·
+  <strong><a href="#install">Install</a></strong> ·
+  <strong><a href="./index.html">Open Public Page</a></strong>
+</p>
 
-**[Browse the skills](#skills)** · **[Try one](#try-it)** · **[Install](#install)** · **[Open the public page](./index.html)**
+Reusable skills for ChatGPT, Claude, and other Agent Skills-compatible systems. Each skill targets a recurring failure mode that generic prompting tends to miss.
 
-| Product Value-Strategy | Storytelling | Wordsmith |
+## Choose a skill
+
+| Skill | Use it when | Core promise |
 |---|---|---|
-| **Find where the buyer actually has a reason to choose you.** | **Make the audience understand the idea before you name it.** | **Make the sentence better without changing the thought.** |
-| Strategy, positioning, pricing, product choices, build/buy/partner. | Narrative structure, tension, reveal, examples, frameworks. | Clarity, compression, cadence, naming, headlines, voice. |
-| [Explore →](./skills/product-value-strategy/README.md) | [Explore →](./skills/storytelling/README.md) | [Explore →](./skills/wordsmith/README.md) |
+| [**Product Value-Strategy**](./skills/product-value-strategy/README.md) | You need to decide what to build, position, price, prioritize, or reject. | **Find where the buyer actually has a reason to choose you.** |
+| [**Storytelling**](./skills/storytelling/README.md) | The idea is strong but the narrative is flat, framework-first, or over-explained. | **Make the audience understand the idea before you name it.** |
+| [**Wordsmith**](./skills/wordsmith/README.md) | The thought is right but the wording is loose, generic, or over-polished. | **Make the sentence better without changing the thought.** |
+
+### A useful sequence
+
+`Product Value-Strategy → choose the strongest argument`
+
+`Storytelling → make the argument unfold`
+
+`Wordsmith → improve the language without changing the argument`
 
 ---
 
@@ -20,9 +35,7 @@ Generic AI is good at making an answer sound coherent. The harder failure modes 
 
 Mad Skills turns those recurring failure modes into reusable operating instructions rather than one-off prompts.
 
-## Skills
-
-### Product Value-Strategy
+## Product Value-Strategy
 
 **Find where the buyer actually has a reason to choose you.**
 
@@ -43,7 +56,7 @@ A strategy is not finished if it only works because someone stops spending, give
 
 [Explore Product Value-Strategy →](./skills/product-value-strategy/README.md)
 
-### Storytelling
+## Storytelling
 
 **Make the audience understand the idea before you name it.**
 
@@ -62,7 +75,7 @@ Storytelling:
 
 [Explore Storytelling →](./skills/storytelling/README.md)
 
-### Wordsmith
+## Wordsmith
 
 **Make the sentence better without changing the thought.**
 
@@ -81,19 +94,7 @@ Wordsmith:
 
 [Explore Wordsmith →](./skills/wordsmith/README.md)
 
-## How they compose
-
-These skills solve different layers of the problem:
-
-`Product Value-Strategy → choose the strongest argument`
-
-`Storytelling → make the argument unfold`
-
-`Wordsmith → improve the language without changing the argument`
-
-A useful sequence for strategic communication is:
-
-`Product Value-Strategy → Storytelling → Wordsmith`
+---
 
 ## Try it
 
@@ -143,7 +144,7 @@ npx skills add yoda-sahb/Mad_Skills --skill wordsmith
 
 For ChatGPT Skills or Claude environments that support Agent Skills, use the same skill folders. The core instructions are not forked into separate ChatGPT and Claude versions.
 
-## Why `SKILL.md`?
+### Why `SKILL.md`?
 
 Because that is the shared Agent Skills convention. It is implementation plumbing, not the product name.
 
