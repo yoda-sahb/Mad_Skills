@@ -48,7 +48,7 @@ It forces four questions:
 3. **Where are you meaningfully better rather than merely relevant?**
 4. **What will the people inside the system actually do once incentives, budgets, authority, and reallocation enter the model?**
 
-That fourth question is the built-in **Elephant Check**:
+That fourth question is the built-in **Behavioral Reality Check**:
 
 > **Put the people back in the model.**
 
@@ -103,7 +103,7 @@ Wordsmith:
 The repository includes a lightweight public page for exploring the method without an API key. Open [`index.html`](./index.html) locally, or use the skill directly in a compatible agent.
 
 ```text
-Use Product Value-Strategy on this decision. Identify what the buyer values, the strongest alternatives, where I have real premium, and run the Elephant Check:
+Use Product Value-Strategy on this decision. Identify what the buyer values, the strongest alternatives, where I have real premium, and run the Behavioral Reality Check:
 
 [PASTE DECISION]
 ```
@@ -162,6 +162,6 @@ The implementation remains inspectable for builders, but the repository is desig
 
 The value-strategy foundation in Product Value-Strategy is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
-Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Porter without independent sourcing.
+Mad Skills is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Behavioral Reality Check are implementation extensions and should not be attributed to Porter without independent sourcing.
 
 Storytelling and Wordsmith are independent writing skills.
