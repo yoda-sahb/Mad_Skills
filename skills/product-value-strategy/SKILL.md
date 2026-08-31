@@ -160,13 +160,13 @@ A bundle deserves premium only when integration itself changes value through mat
 
 If ordinary components assembled separately produce essentially the same result, do not invent a bundle premium.
 
-## 9. Run the Elephant Check
+## 9. Run the Behavioral Reality Check
 
 Before accepting the economics, put the humans and institutions back into the model.
 
 Core anti-pattern:
 
-> **ELEPHANT ANTI-PATTERN:** A strategy assumes an actor will stop spending, surrender economics, abandon an incentive, cooperate, or behave “rationally” merely because the proposed system makes that behavior globally efficient.
+> **BEHAVIORAL REALITY ANTI-PATTERN:** A strategy assumes an actor will stop spending, surrender economics, abandon an incentive, cooperate, or behave “rationally” merely because the proposed system makes that behavior globally efficient.
 
 Required question:
 
@@ -284,7 +284,7 @@ One sentence defining the decision-maker and actual choice.
 ### Strategic Crux
 The one or two drivers where the decision is most likely won or lost.
 
-### Elephant Check
+### Behavioral Reality Check
 `Actor | Actual incentive | Baseline behavior | Freed/displaced resource | Likely disposition | Adaptation | Elasticity`
 
 ### Offering
@@ -303,7 +303,7 @@ End with one:
 - `RELEVANT_BUT_PREMIUM_UNPROVEN`
 - `PARITY / TABLE_STAKES`
 - `STRUCTURAL_DISADVANTAGE`
-- `STRATEGY_FAILS_ELEPHANT`
+- `STRATEGY_FAILS_BEHAVIORAL_REALITY`
 
 ## Final checks
 
@@ -324,4 +324,4 @@ Before finalizing:
 
 The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
-The workflow above is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Dwight Porter unless independently sourced.
+The workflow above is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Behavioral Reality Check are implementation extensions and should not be attributed to Dwight Porter unless independently sourced.
