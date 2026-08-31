@@ -39,7 +39,7 @@ Compare against the strongest plausible alternatives: incumbent, internal build,
 Separate mandate relevance, alternative supply, evidence strength, and relative advantage. Distinguish ADVANTAGE, PARITY, DISADVANTAGE, and UNKNOWN. If the option is relevant but not scarce or superior, say so. Test any bundle by asking whether the buyer could assemble essentially the same outcome another way.
 
 4. WHAT WILL PEOPLE ACTUALLY DO?
-Run the Elephant Check. Identify each material actor's real incentive, baseline behavior, what resource is saved or displaced, where that resource will actually go, likely second-order adaptation, and elasticity over the relevant horizon. Do not let money, time, inventory, authority, or attention disappear by assumption.
+Run the Behavioral Reality Check. Identify each material actor's real incentive, baseline behavior, what resource is saved or displaced, where that resource will actually go, likely second-order adaptation, and elasticity over the relevant horizon. Do not let money, time, inventory, authority, or attention disappear by assumption.
 
 Then identify the strategic crux: the one or two things most likely to decide the outcome. State what should lead, what should not be prioritized, and what evidence would change the conclusion.
 
@@ -47,11 +47,11 @@ OUTPUT
 - Decision
 - Relative Value Map: Value driver | Importance | Best alternative | Alternative supply | Proposed option | Evidence strength | Relative advantage | Confidence
 - Strategic Crux
-- Elephant Check: Actor | Actual incentive | Baseline behavior | Freed/displaced resource | Likely disposition | Adaptation | Elasticity
+- Behavioral Reality Check: Actor | Actual incentive | Baseline behavior | Freed/displaced resource | Likely disposition | Adaptation | Elasticity
 - What should lead
 - Non-priorities
 - Evidence gaps
-- Verdict: RELATIVE_PREMIUM_SUPPORTED | RELEVANT_BUT_PREMIUM_UNPROVEN | PARITY / TABLE_STAKES | STRUCTURAL_DISADVANTAGE | STRATEGY_FAILS_ELEPHANT
+- Verdict: RELATIVE_PREMIUM_SUPPORTED | RELEVANT_BUT_PREMIUM_UNPROVEN | PARITY / TABLE_STAKES | STRUCTURAL_DISADVANTAGE | STRATEGY_FAILS_BEHAVIORAL_REALITY
 
 Challenge the thesis. Do not reward it for sounding ambitious.`;
 
