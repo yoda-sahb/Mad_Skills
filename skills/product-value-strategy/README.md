@@ -31,7 +31,7 @@ A capability can be important and still create no premium if the buyer can sourc
 
 ### 4. What will people actually do?
 
-Run the built-in **Elephant Check**.
+Run the built-in **Behavioral Reality Check**.
 
 > **Put the people back in the model.**
 
@@ -65,7 +65,7 @@ A full run should identify:
 - the strongest alternatives;
 - the value drivers that matter;
 - supported advantage versus parity or uncertainty;
-- the Elephant Check on incentives and reallocation;
+- the Behavioral Reality Check on incentives and reallocation;
 - the strategic crux;
 - explicit non-priorities; and
 - the evidence that could change the conclusion.
@@ -98,4 +98,4 @@ Because that is the shared implementation convention. It is not the brand.
 
 The value-strategy foundation is an independent operationalization of concepts attributed to Dwight Porter, including Value Drivers, Product Offering thinking, product-line ownership framing, and value / pricing concepts.
 
-This repository is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Elephant Check are implementation extensions and should not be attributed to Porter without independent sourcing.
+This repository is not an official Dwight Porter publication and is not presented as endorsed by him. The relative-premium operating model, evidence handling, bundle tests, AI-execution structure, and Behavioral Reality Check are implementation extensions and should not be attributed to Porter without independent sourcing.
