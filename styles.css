@@ -217,12 +217,12 @@ blockquote {
   flex-direction: column;
 }
 
-.feature-card.elephant-card { background: #ece8de; }
+.feature-card.behavioral-card { background: #ece8de; }
 .number { font-size: 12px; font-weight: 850; letter-spacing: .12em; }
 .feature-card h3 { margin: auto 0 12px; font-size: 24px; line-height: 1.05; }
 .feature-card p { margin: 0; color: var(--muted); }
 
-.elephant-panel {
+.behavioral-panel {
   margin-top: 26px;
   display: grid;
   grid-template-columns: 1fr 1.4fr;
@@ -232,9 +232,9 @@ blockquote {
   color: var(--white);
 }
 
-.elephant-panel h3 { margin: 0; font-size: 32px; letter-spacing: -.03em; }
-.elephant-panel > p { margin: 0; color: #d2d2d2; font-size: 18px; }
-.elephant-question {
+.behavioral-panel h3 { margin: 0; font-size: 32px; letter-spacing: -.03em; }
+.behavioral-panel > p { margin: 0; color: #d2d2d2; font-size: 18px; }
+.behavioral-question {
   grid-column: 1 / -1;
   padding-top: 28px;
   border-top: 1px solid #444;
@@ -400,8 +400,8 @@ footer {
 
 @media (max-width: 900px) {
   .feature-grid { grid-template-columns: 1fr 1fr; }
-  .section-head, .quote-grid, .playground, .elephant-panel, .footer-grid, .builder-note { grid-template-columns: 1fr; gap: 28px; }
-  .elephant-question { grid-column: auto; }
+  .section-head, .quote-grid, .playground, .behavioral-panel, .footer-grid, .builder-note { grid-template-columns: 1fr; gap: 28px; }
+  .behavioral-question { grid-column: auto; }
   .hero { padding-top: 80px; }
 }
 
